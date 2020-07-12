@@ -1,10 +1,12 @@
 # Google Cloud Hackathon: Airbnb
+# Problem Overview
+Faced with the increasingly serious situation and more and more confirmed cases, countries around the world have issued shelter-in-place policies, travel and cross-border tourism has been greatly reduced. 
 This project aims to use Google Cloud Platform to analyze the challenges faced by Airbnb as well as other trip/housing related companies during the coronavirus pandemic, provide robust solutions for survival, and give suggestions for post covid-19 development strategy. The impact of recommendations are evaluated at the end.
 
-## Business Case
+## Data Gathering
+We collected datasets from http://insideairbnb.com/get-the-data.html. The details of the datasets are shown below:
 
-
-## Dataset
+## Datasets
 1. Listings (Beijing, San Francisco)
    - id: listing id
    - host_id: host id
@@ -69,22 +71,36 @@ This project aims to use Google Cloud Platform to analyze the challenges faced b
    - reviewer_name
    - comments
 
-Source: http://insideairbnb.com/get-the-data.html
+## Storage Option: Google Cloud Storage
+Since the overall size of all datasets accumulated to 1 GB + and number of features was over a hundred, we imported datasets to Google cloud storage.
 
-## Analytical Techniques: GCP
-1. [BigQuery](https://github.com/Freiheit77/Google-Cloud-Hackathon-Airbnb/blob/master/docs/bigquery.png)
+## GCP Solution Chosen and Why (**Click on the link to look at the screenshots**)
+We created a project on GCP so that all steps of data analytics are integrated on a single platform: 
+1. [Storage](https://github.com/boyasun/Google-Cloud-Hackathon-Airbnb/blob/master/docs/storage.png)
+Google Accounts include 15 GB of storage for free. Also, Storage makes it easier to share and manage datasets across the team.
 
-2. [Data Studio](https://github.com/Freiheit77/Google-Cloud-Hackathon-Airbnb/blob/master/docs/beijing.png)
+2. [BigQuery](https://github.com/Freiheit77/Google-Cloud-Hackathon-Airbnb/blob/master/docs/bigquery.png)
+Now that our project is connected to the storage which contains the bucket of datasets that we need, we can pull the data in the format that we want with just a few lines of SQL code on the BigQuery console. 
 
-3. [AI Platform](https://github.com/Freiheit77/Google-Cloud-Hackathon-Airbnb/blob/master/docs/AI%20platform.png)
+3. [Data Studio](https://github.com/Freiheit77/Google-Cloud-Hackathon-Airbnb/blob/master/docs/beijing.png)
+Data Studio is directly connected with BigQuery. With just one click, we can use all kinds of plots and tables to explore insights from the data and create meaningful visualizations to guide further analysis.
 
-## Model Develpment
-1. [Interactive visualization for topics model of Beijing Airbnb](https://freiheit77.github.io/Google-Cloud-Hackathon-Airbnb/beijing_vis.html)
+4. [AI Platform](https://github.com/Freiheit77/Google-Cloud-Hackathon-Airbnb/blob/r/docs/AI%20platform.png)
+We created Python3 Notebook Instances on the AI Platform to do further analysis including exploratory data analysis, topic modeling, etc. We also applied Google Cloud NLP API in our analysis. Overall speaking, GCP’s computational time and query efficiency are much higher than using some other techniques. 
 
-## Recommendations
+## Model Performance
+1. Showcase the visualization of our topic modeling: [Interactive visualization for topics model of Beijing Airbnb](https://freiheit77.github.io/Google-Cloud-Hackathon-Airbnb/beijing_vis.html)<br>
+2. [Topic modeling coherence score](https://github.com/boyasun/Google-Cloud-Hackathon-Airbnb/blob/master/docs/modelperformance.png): The coherence score is for assessing the quality of the learned topics. Our models have coherence score around 0.5, which indicates a fairly good performance. 
 
 
-## Impact
+## Recommendations&Impact
+Based on the model results and our research, we have several recommendations for Airbnb to reopen their business in countries where lockdown restrictions has/are to lift. As it reopens its business in China, Airbnb can refer to its experience in China to set reopening strategies for other markets.
+
+**Sanitation**: According to our topic model, sanitation and cleanliness is of the top concerns especially in the post virus phase. We recommend Airbnb to highlight safety and cleanliness score on their app or webpage for qualified hosts to provide assurance to guests. <br>
+**Cooperation**: Airbnb’s cooperation with one of the popular video sharing app Kuaishou in China has successfully helped it promote new initiatives. We recommend Airbnb work with popular local platforms in different markets to attract hosts and guests. <br>
+**Domestic Travel & Countryside Tour**: While Airbnb is already promoting domestic travel and countryside tour all over the world. Its experience in China indicates that these two strategies work and that partnering with local government departments of tourism can more efficiently promote the initiatives.   
+
+
 
 
 Reference:
