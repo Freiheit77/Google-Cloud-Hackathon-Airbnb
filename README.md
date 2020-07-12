@@ -15,7 +15,7 @@ This project aims to use Google Cloud Platform to analyze the challenges faced b
 3. AI Platform
 
 ## Model Develpment
-1. [Interactive visualization for topics model of Beijing Airbnb](https://github.com/Freiheit77/Google-Cloud-Hackathon-Airbnb/beijing_vis.html)
+1. [Interactive visualization for topics model of Beijing Airbnb](https://freiheit77.github.io/Google-Cloud-Hackathon-Airbnb/beijing_vis.html)
 
 ## Recommendations
 
