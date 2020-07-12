@@ -17,7 +17,7 @@ Source: http://insideairbnb.com/get-the-data.html
 
 2. [Data Studio](https://github.com/Freiheit77/Google-Cloud-Hackathon-Airbnb/blob/master/docs/beijing.png)
 
-3. AI Platform
+3. [AI Platform](https://github.com/Freiheit77/Google-Cloud-Hackathon-Airbnb/blob/master/docs/AI%20platform.png)
 
 ## Model Develpment
 1. [Interactive visualization for topics model of Beijing Airbnb](https://freiheit77.github.io/Google-Cloud-Hackathon-Airbnb/beijing_vis.html)
