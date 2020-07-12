@@ -8,9 +8,9 @@ This project aims to use Google Cloud Platform to analyze the challenges faced b
 1. Listings (Beijing, San Francisco)
 
 ## Analytical Techniques: GCP
-1. [BigQuery](https://github.com/Freiheit77/Google-Cloud-Hackathon-Airbnb/blob/master/pictures/bigquery.png)
+1. [BigQuery](https://github.com/Freiheit77/Google-Cloud-Hackathon-Airbnb/blob/master/docs/bigquery.png)
 
-2. [Data Studio](https://github.com/Freiheit77/Google-Cloud-Hackathon-Airbnb/blob/master/pictures/beijing.png)
+2. [Data Studio](https://github.com/Freiheit77/Google-Cloud-Hackathon-Airbnb/blob/master/docs/beijing.png)
 
 3. AI Platform
 
