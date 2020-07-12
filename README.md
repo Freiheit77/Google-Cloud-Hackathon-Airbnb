@@ -92,10 +92,10 @@ We created Python3 Notebook Instances on the AI Platform to do further analysis 
 1. [Interactive visualization for topics model of Beijing Airbnb](https://freiheit77.github.io/Google-Cloud-Hackathon-Airbnb/beijing_vis.html)
 
 ## Recommendations&Impact
-Based on the model results and our research, we have several recommendations for Airbnb to reopen their business in countries where lockdown restrictions has/are to lift. As it reopens its business in China, Airbnb can refer to its experience in China to set reopening strategies for other markets. 
+Based on the model results and our research, we have several recommendations for Airbnb to reopen their business in countries where lockdown restrictions has/are to lift. As it reopens its business in China, Airbnb can refer to its experience in China to set reopening strategies for other markets.
 
-**Sanitation**: According to our topic model, sanitation and cleanliness is of the top concerns especially in the post virus phase. We recommend Airbnb to highlight safety and cleanliness score on their app or webpage for qualified hosts to provide assurance to guests. 
-**Cooperation**: Airbnb’s cooperation with one of the popular video sharing app Kuaishou in China has successfully helped it promote new initiatives. We recommend Airbnb work with popular local platforms in different markets to attract hosts and guests.
+**Sanitation**: According to our topic model, sanitation and cleanliness is of the top concerns especially in the post virus phase. We recommend Airbnb to highlight safety and cleanliness score on their app or webpage for qualified hosts to provide assurance to guests. <br>
+**Cooperation**: Airbnb’s cooperation with one of the popular video sharing app Kuaishou in China has successfully helped it promote new initiatives. We recommend Airbnb work with popular local platforms in different markets to attract hosts and guests. <br>
 **Domestic Travel & Countryside Tour**: While Airbnb is already promoting domestic travel and countryside tour all over the world. Its experience in China indicates that these two strategies work and that partnering with local government departments of tourism can more efficiently promote the initiatives.   
 
 
