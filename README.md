@@ -26,3 +26,7 @@ Source: http://insideairbnb.com/get-the-data.html
 
 
 ## Impact
+
+
+Reference:
+https://github.com/Tony607/Chinese_sentiment_analysis/blob/master/chinese_sentiment_analysis.ipynb
