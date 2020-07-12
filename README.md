@@ -88,8 +88,10 @@ Data Studio is directly connected with BigQuery. With just one click, we can use
 4. [AI Platform](https://github.com/Freiheit77/Google-Cloud-Hackathon-Airbnb/blob/r/docs/AI%20platform.png)
 We created Python3 Notebook Instances on the AI Platform to do further analysis including exploratory data analysis, topic modeling, etc. We also applied Google Cloud NLP API in our analysis. Overall speaking, GCP’s computational time and query efficiency are much higher than using some other techniques. 
 
-## Model Develpment
-1. [Interactive visualization for topics model of Beijing Airbnb](https://freiheit77.github.io/Google-Cloud-Hackathon-Airbnb/beijing_vis.html)
+## Model Performance
+1. Showcase the visualization of our topic modeling: [Interactive visualization for topics model of Beijing Airbnb](https://freiheit77.github.io/Google-Cloud-Hackathon-Airbnb/beijing_vis.html)<br>
+2. [Topic modeling coherence score](https://github.com/boyasun/Google-Cloud-Hackathon-Airbnb/blob/master/docs/modelperformance.png): The coherence score is for assessing the quality of the learned topics. Our models have coherence score around 0.5, which indicates a fairly good performance. 
+
 
 ## Recommendations&Impact
 Based on the model results and our research, we have several recommendations for Airbnb to reopen their business in countries where lockdown restrictions has/are to lift. As it reopens its business in China, Airbnb can refer to its experience in China to set reopening strategies for other markets.
