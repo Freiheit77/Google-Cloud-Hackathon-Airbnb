@@ -78,7 +78,7 @@ Source: http://insideairbnb.com/get-the-data.html
 
 3. [AI Platform](https://github.com/Freiheit77/Google-Cloud-Hackathon-Airbnb/blob/r/docs/AI%20platform.png)
 
-4. [Storage](https://github.com/Freiheit77/Google-Cloud-Hackathon-Airbnb/blob/master/docs/storage.png)
+4. [Storage](https://github.com/boyasun/Google-Cloud-Hackathon-Airbnb/blob/master/docs/storage.png)
 
 
 
