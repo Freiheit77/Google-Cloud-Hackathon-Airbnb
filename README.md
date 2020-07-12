@@ -6,6 +6,11 @@ This project aims to use Google Cloud Platform to analyze the challenges faced b
 
 ## Dataset
 1. Listings (Beijing, San Francisco)
+   - 
+2. Reviews 
+   - 
+
+Source: http://insideairbnb.com/get-the-data.html
 
 ## Analytical Techniques: GCP
 1. [BigQuery](https://github.com/Freiheit77/Google-Cloud-Hackathon-Airbnb/blob/master/docs/bigquery.png)
