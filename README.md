@@ -6,9 +6,68 @@ This project aims to use Google Cloud Platform to analyze the challenges faced b
 
 ## Dataset
 1. Listings (Beijing, San Francisco)
-   - 
+   - id: listing id
+   - host_id: host id
+   - name: listing name 
+   - summary: the overall summary for the listings
+   - notes: some special issues to be mentioned
+   - transit: location and transportation
+   - house_rules
+   - picture_url
+   - host_name
+   - host_since
+   - host_location
+   - host_response_time
+   - host_response_rate
+   - host_acceptance_rate
+   - host_listings_count
+   - host_verifications
+   - host_has_profile_pic
+   - street
+   - neighbourhood
+   - city
+   - state
+   - zipcode
+   - country_code
+   - latitude
+   - longitude
+   - property_type
+   - room_type
+   - accommodates
+   - bathrooms
+   - bedrooms
+   - beds
+   - bed_type
+   - amenities
+   - price
+   - weekly_price
+   - monthly_price
+   - security_deposit
+   - cleaning_fee
+   - guests_included
+   - extrac_people
+   - minimum_nights
+   - maximum_nights
+   - number of reviews
+   - first_review
+   - last_review
+   - review_scores_rating
+   - review_scores_accuracy
+   - review_scores_cleanliness
+   - review_scores_checkin
+   - review_scores_communication
+   - review_score_location
+   - license
+   - cancellation_policy
+   - etc.
+   
 2. Reviews 
-   - 
+   - listing_id
+   - id: review doc id
+   - date: date of giving reviews
+   - reviewer_id
+   - reviewer_name
+   - comments
 
 Source: http://insideairbnb.com/get-the-data.html
 
